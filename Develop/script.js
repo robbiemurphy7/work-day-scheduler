@@ -13,6 +13,8 @@ $(document).ready(function () {
     localStorage.setItem(text, time);
 })
 
+// function timePassed
+
 
 // LOCAL STORAGE
 $("#8am .description").val(localStorage.getItem("8am"));
