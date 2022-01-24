@@ -16,4 +16,4 @@ Site displays an engaging schedule spanning 8 A.M. to 4 P.M. in accordance with 
 ![Image](./Develop/work-day-scheduler-photo.png)
 
 ## Website
-Link to live URL: 
+Link to live URL: https://robbiemurphy7.github.io/work-day-scheduler/
