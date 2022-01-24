@@ -5,9 +5,13 @@ console.log("Hello");
 var currentDay = moment().format("dddd, MMM Do YYYY");
 $("#currentDay").html(currentDay);
 
-//$(document).ready(function () {
-//    localStorage.setItem(text, time);
-//}
+$(document).ready(function () {
+    $(".saveBtn").on("click", function () {
+        var text = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
+
+    localStorage.setItem(text, time);
+})
 
 
 // LOCAL STORAGE
@@ -20,3 +24,5 @@ $("#1pm .description").val(localStorage.getItem("1pm"));
 $("#2pm .description").val(localStorage.getItem("2pm"));
 $("#3pm .description").val(localStorage.getItem("3pm"));
 $("#4pm .description").val(localStorage.getItem("4pm"));
+
+})
